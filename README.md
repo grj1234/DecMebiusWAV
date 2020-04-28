@@ -1,6 +1,6 @@
 # DecMebiusWAV Version 0.1
 
-This tool is to decrypt XOR-encrypted WAV files which used for some games developed by Studio Mebius and related developers (e.g. Studio Ring).  
+This tool is to decrypt XOR-encrypted WAV files which used in some games developed by Studio Mebius and related developers (e.g. Studio Ring).  
 
 ## Usage
 Usage: `DecMebiusWAV <Input file> <Output file> [XOR key]`  

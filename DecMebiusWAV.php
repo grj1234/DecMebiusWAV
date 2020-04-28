@@ -19,7 +19,7 @@ if($argc<3) {
 	fwrite($message_handle,
 		"Usage: DecMebiusWAV <Input file> <Output file> [XOR key]".PHP_EOL.
 		PHP_EOL.
-		"This tool is to decrypt XOR-encrypted WAV files which used for some games developed by Studio Mebius and related developers (e.g. Studio Ring).".PHP_EOL.
+		"This tool is to decrypt XOR-encrypted WAV files which used in some games developed by Studio Mebius and related developers (e.g. Studio Ring).".PHP_EOL.
 		"If you want to output to stdout, specify - as output file. (Input from stdin is not supported)".PHP_EOL.
 		"You can't use wildcard for input file and output file.".PHP_EOL.
 		"DecMebiusWAV will overwrite the output file without confirmation even if it exists.".PHP_EOL.
