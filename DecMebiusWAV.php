@@ -1,11 +1,11 @@
 <?php
 // -----------------------------------------
-// DecMebiusWAV Version 0.1 by grj1234
+// DecMebiusWAV Version 0.2 by grj1234
 // https://github.com/grj1234/DecMebiusWAV
 // -----------------------------------------
 setlocale(LC_ALL,'');
 ini_set('error_log','php://stderr');
-$version="0.1";
+$version="0.2";
 $debugmode=false;
 $decryption_buffer_size=1048576;
 $message_handle=fopen("php://stderr","wb");
