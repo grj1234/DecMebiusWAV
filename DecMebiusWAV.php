@@ -64,9 +64,9 @@ if(isset($argv[3])) {
 		exit(1);
 	}
 	fwrite($message_handle,"Using external XOR key file for a single file".PHP_EOL);
-} else if(file_exists($in_pathinfo{"dirname"}."\\".$key_ext)) {
+} else if(file_exists($in_pathinfo{"dirname"}."/".$key_ext)) {
 	// load key file (for the whole folder)
-	$xor_key=file_get_contents($in_pathinfo{"dirname"}."\\".$key_ext);
+	$xor_key=file_get_contents($in_pathinfo{"dirname"}."/".$key_ext);
 	if($xor_key===false){
 		fwrite($message_handle,"Error: External XOR key file for the whole folder found, but loading failed".PHP_EOL);
 		fclose($message_handle);

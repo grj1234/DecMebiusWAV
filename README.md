@@ -21,3 +21,7 @@ If you don't specify the key and the external key not found, DecMebiusWAV will u
 ## Contact me
 - HCS Forum: [grj1234](https://hcs64.com/mboard/forum.php?userinfo=3202)
 - E-mail: grj1234@protonmail.com
+
+## License
+All source code in this repository is released under the [NYSL Version 0.9982](http://www.kmonos.net/nysl/).  
+File "LICENSE_ja" contains the license text of NYSL, written in Japanese. File "LICENSE" contains the unofficial English translation of NYSL.
