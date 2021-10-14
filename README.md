@@ -1,3 +1,5 @@
+This tool has many bugs and vulnerabilities. I recommend to use [vgmstream](https://vgmstream.org/) instead.
+
 # DecMebiusWAV Version 0.2
 
 This tool is to decrypt XOR-encrypted WAV files which used in some games developed by Studio Mebius and related developers (e.g. Studio Ring).  
