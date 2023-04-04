@@ -1,4 +1,4 @@
-__This tool has many bugs and vulnerabilities. I recommend to use [vgmstream](https://vgmstream.org/) instead.__  
+__Important: This tool has many bugs and vulnerabilities. I strongly recommend to use [vgmstream](https://vgmstream.org/) instead.__  
 
 # DecMebiusWAV Version 0.3
 
@@ -15,8 +15,8 @@ When you don't specify the XOR key by argument, DecMebiusWAV will load external 
 The file name of key file must be "(name).(ext)key" (for a single file), or ".(ext)key" (for the whole folder).  
 
 ## Notes
-- You have to install PHP and modify the PATH environment variable to include the PHP directory to run this tool.
-- I checked this tool can be run on PHP 7.0, but I didn't check whether can run on the other versions of PHP or not.
+- You have to install PHP CLI and modify the PATH environment variable to include the PHP directory to run this tool.
+- I checked this tool can be run on PHP 7.0, but I don't check whether can run on the other versions of PHP or not.
 	- The newer version of PHP also can run this tool, probably.
 - DecMebiusWAV will overwrite the output file without confirmation even if it exists.
 
