@@ -2,7 +2,7 @@ This tool has many bugs and vulnerabilities. I recommend to use [vgmstream](http
 
 # DecMebiusWAV Version 0.2
 
-This tool is to decrypt XOR-encrypted WAV files which used in some games developed by Studio Mebius and related developers (e.g. Studio Ring).  
+This tool decrypts Mebius engine's XOR-encrypted WAV files (also called Mebius KOE files by GARbro) which used in some games developed by Studio Mebius and related developers (e.g. Studio Ring).  
 
 ## Usage
 Usage: `DecMebiusWAV <Input file> <Output file> [XOR key]`  
@@ -34,4 +34,6 @@ File "LICENSE_ja" contains the license text of NYSL, written in Japanese. File "
 
 ## Contact me
 - HCS Forum: [grj1234](https://hcs64.com/mboard/forum.php?userinfo=3202)
+- Twitter: [@user_88810887](https://twitter.com/user_88810887)
+- Fediverse (Misskey): [@grj1234@misskey.04.si](https://misskey.04.si/@grj1234)
 - E-mail: grj1234@protonmail.com
